@@ -1,0 +1,67 @@
+body{
+    background-color: #DCDCDC;
+    padding: 0;
+}
+#upper_menu{
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: sticky;
+    z-index: 1;
+    padding: 20px;
+    background-color: lightblue;
+}
+h1{
+    height: 45px;
+    width: 220px;
+    position: absolute;
+    left: 150px;
+    top: auto;
+}
+#logo_sunrise{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 50px;
+    top: auto;
+}
+.menu{
+    width: 1000px;
+    height: 45px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 400px;
+    top: auto;
+    margin-top: 20px;
+}
+.menu a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: fantasy;
+    color: #5757a0;
+    padding: 10px 20px;
+    background-color: lavender;
+    border-bottom: 5px solid #5757a0;
+}
+.menu li{
+    float: left;
+    margin-left: 50px;
+}
+#start{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#rubbish{
+    position: relative;
+    height: 1000px;
+    width: 600px;
+    top: 700px;
+    left: 10%;
+}
